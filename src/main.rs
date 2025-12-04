@@ -23,6 +23,7 @@ impl Args {
 fn solve(day: &u8, input: &mut String) -> String {
     match day {
         1 => days::day1::day1(input),
+        2 => days::day2::day2(input),
         _ => "unimplemented".to_string(),
     }
 }
