@@ -24,6 +24,7 @@ fn solve(day: &u8, input: &mut String) -> String {
     match day {
         1 => days::day1::day1(input),
         2 => days::day2::day2(input),
+        3 => days::day3::day3(input),
         _ => "unimplemented".to_string(),
     }
 }
